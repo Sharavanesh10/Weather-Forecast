@@ -1,0 +1,98 @@
+.hd{
+    margin:10px;
+    font: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    min-height: auto;
+    font-size:300%;
+    font-style:inherit;
+    color:rgb(174, 234, 43);
+}
+body{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.33)),url(./Bg.jpg);
+    background-size: cover;
+}
+.by{
+    margin: 10px;
+    font-family: "Poppins",Arial;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+input{
+    padding: 18;
+    border-radius: 40px;
+    background-color:rgb(195, 233, 169) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow:rgb(90, 138, 18);
+    min-width: 300px;
+    border:rgb(161, 207, 207);
+    border-color: rgb(74, 210, 214);
+    font:status-bar;
+    font-size: medium;
+    transition: relative;
+}
+input:hover{
+    border-color: rgb(220, 202, 213);
+    background-color: rgb(132, 187, 239)
+}
+.weather{
+    text-align: center;
+    font-size: 20;
+    display:grid;
+    offset-distance:unset;
+    column-gap: 25px;
+    float: center;
+    width: 100%;
+    padding: 10px;
+    border-style: dotted;
+    border-color: rgb(196, 149, 41);
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    border-radius: 75px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color:rgb(225, 200, 89);
+}
+.weather:hover{
+    text-align: center;
+    font-size: 20;
+    display:grid;
+    width: 100%;
+    padding: 10px;
+    border-style: dotted;
+    border-color: rgb(196, 149, 41);
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    border-radius: 75px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    background-color:rgb(144, 117, 81);
+    color:rgb(14, 9, 15);
+}
+.subweather{
+    text-align: center;
+    font-size: 20;
+    display:inline-block;
+    width:auto;
+    padding:10px;
+    border-style: dotted;
+    border-color: blanchedalmond;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    border-radius: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+    color: rgb(214, 245, 104);
+}
+.mw{
+    display: none;
+}
+.weather:hover~.mw{
+    display: inline;
+}
+
